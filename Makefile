@@ -1,3 +1,3 @@
-ssl_bio_client:
+nossl_bio_client:
 	gcc src/* -o $@ -lssl
 	./$@
